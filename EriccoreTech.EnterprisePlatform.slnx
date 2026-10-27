@@ -1,20 +1,23 @@
 <Solution>
-  <Project Path="src/EriccoreTech.EnterprisePlatform.Core/EriccoreTech.EnterprisePlatform.Core.csproj" />
+  <Project Path="src/EriccoreTech.EnterprisePlatform.Application.Api/EriccoreTech.EnterprisePlatform.Application.Api.csproj" />
   <Project Path="src/EriccoreTech.EnterprisePlatform.Application.Model/EriccoreTech.EnterprisePlatform.Application.Model.csproj" />
   <Project Path="src/EriccoreTech.EnterprisePlatform.Application.Service.Contracts/EriccoreTech.EnterprisePlatform.Application.Service.Contracts.csproj" />
   <Project Path="src/EriccoreTech.EnterprisePlatform.Application.Service/EriccoreTech.EnterprisePlatform.Application.Service.csproj" />
-  <Project Path="src/EriccoreTech.EnterprisePlatform.Application.Api/EriccoreTech.EnterprisePlatform.Application.Api.csproj" />
-  <Project Path="src/EriccoreTech.EnterprisePlatform.Orchestration.Model/EriccoreTech.EnterprisePlatform.Orchestration.Model.csproj" />
-  <Project Path="src/EriccoreTech.EnterprisePlatform.Orchestration.Service.Contracts/EriccoreTech.EnterprisePlatform.Orchestration.Service.Contracts.csproj" />
-  <Project Path="src/EriccoreTech.EnterprisePlatform.Orchestration.Service/EriccoreTech.EnterprisePlatform.Orchestration.Service.csproj" />
-  <Project Path="src/EriccoreTech.EnterprisePlatform.Integration.Model/EriccoreTech.EnterprisePlatform.Integration.Model.csproj" />
-  <Project Path="src/EriccoreTech.EnterprisePlatform.Integration.Service.Contracts/EriccoreTech.EnterprisePlatform.Integration.Service.Contracts.csproj" />
-  <Project Path="src/EriccoreTech.EnterprisePlatform.Integration.Service/EriccoreTech.EnterprisePlatform.Integration.Service.csproj" />
-  <Project Path="src/EriccoreTech.EnterprisePlatform.Data.Model/EriccoreTech.EnterprisePlatform.Data.Model.csproj" />
-  <Project Path="src/EriccoreTech.EnterprisePlatform.Data.Service.Contracts/EriccoreTech.EnterprisePlatform.Data.Service.Contracts.csproj" />
-  <Project Path="src/EriccoreTech.EnterprisePlatform.Data.Service/EriccoreTech.EnterprisePlatform.Data.Service.csproj" />
+  <Project Path="src/EriccoreTech.EnterprisePlatform.ControlPlane.Api/EriccoreTech.EnterprisePlatform.ControlPlane.Api.csproj" />
   <Project Path="src/EriccoreTech.EnterprisePlatform.ControlPlane.Model/EriccoreTech.EnterprisePlatform.ControlPlane.Model.csproj" />
   <Project Path="src/EriccoreTech.EnterprisePlatform.ControlPlane.Service.Contracts/EriccoreTech.EnterprisePlatform.ControlPlane.Service.Contracts.csproj" />
   <Project Path="src/EriccoreTech.EnterprisePlatform.ControlPlane.Service/EriccoreTech.EnterprisePlatform.ControlPlane.Service.csproj" />
-  <Project Path="src/EriccoreTech.EnterprisePlatform.ControlPlane.Api/EriccoreTech.EnterprisePlatform.ControlPlane.Api.csproj" />
+  <Project Path="src/EriccoreTech.EnterprisePlatform.Core/EriccoreTech.EnterprisePlatform.Core.csproj" />
+  <Project Path="src/EriccoreTech.EnterprisePlatform.Data.Api/EriccoreTech.EnterprisePlatform.Data.Api.csproj" />
+  <Project Path="src/EriccoreTech.EnterprisePlatform.Data.Model/EriccoreTech.EnterprisePlatform.Data.Model.csproj" />
+  <Project Path="src/EriccoreTech.EnterprisePlatform.Data.Service.Contracts/EriccoreTech.EnterprisePlatform.Data.Service.Contracts.csproj" />
+  <Project Path="src/EriccoreTech.EnterprisePlatform.Data.Service/EriccoreTech.EnterprisePlatform.Data.Service.csproj" />
+  <Project Path="src/EriccoreTech.EnterprisePlatform.Integration.Host/EriccoreTech.EnterprisePlatform.Integration.Host.csproj" />
+  <Project Path="src/EriccoreTech.EnterprisePlatform.Integration.Model/EriccoreTech.EnterprisePlatform.Integration.Model.csproj" />
+  <Project Path="src/EriccoreTech.EnterprisePlatform.Integration.Service.Contracts/EriccoreTech.EnterprisePlatform.Integration.Service.Contracts.csproj" />
+  <Project Path="src/EriccoreTech.EnterprisePlatform.Integration.Service/EriccoreTech.EnterprisePlatform.Integration.Service.csproj" />
+  <Project Path="src/EriccoreTech.EnterprisePlatform.Orchestration.Host/EriccoreTech.EnterprisePlatform.Orchestration.Host.csproj" />
+  <Project Path="src/EriccoreTech.EnterprisePlatform.Orchestration.Model/EriccoreTech.EnterprisePlatform.Orchestration.Model.csproj" />
+  <Project Path="src/EriccoreTech.EnterprisePlatform.Orchestration.Service.Contracts/EriccoreTech.EnterprisePlatform.Orchestration.Service.Contracts.csproj" />
+  <Project Path="src/EriccoreTech.EnterprisePlatform.Orchestration.Service/EriccoreTech.EnterprisePlatform.Orchestration.Service.csproj" />
 </Solution>
