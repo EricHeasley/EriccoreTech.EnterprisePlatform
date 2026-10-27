@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EriccoreTech.EnterprisePlatform.Application.Model\EriccoreTech.EnterprisePlatform.Application.Model.csproj" />
+    <ProjectReference Include="..\EriccoreTech.EnterprisePlatform.Application.Service.Contracts\EriccoreTech.EnterprisePlatform.Application.Service.Contracts.csproj" />
+    <ProjectReference Include="..\EriccoreTech.EnterprisePlatform.Application.Service\EriccoreTech.EnterprisePlatform.Application.Service.csproj" />
+    <ProjectReference Include="..\EriccoreTech.EnterprisePlatform.Core\EriccoreTech.EnterprisePlatform.Core.csproj" />
+  </ItemGroup>
+
+</Project>
