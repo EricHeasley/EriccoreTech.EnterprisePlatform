@@ -14,8 +14,13 @@ namespace EriccoreTech.EnterprisePlatform.Data.Api.Controllers {
         }
 
         [HttpPost]
-        public SaveRecordResponse SaveRecord(SaveRecordRequest request) {
-            return _recordService.SaveRecord(request);
+        public async Task<SaveRecordResponse> SaveRecord(SaveRecordRequest request, CancellationToken cancellationToken) {
+            return await _recordService.SaveRecordAsync(request, cancellationToken);
+        }
+
+        [HttpGet]
+        public async Task<GetRecordResponse> GetRecord([FromQuery] GetRecordRequest request, CancellationToken cancellationToken) {
+            return await _recordService.GetRecordAsync(request, cancellationToken);
         }
 
     }

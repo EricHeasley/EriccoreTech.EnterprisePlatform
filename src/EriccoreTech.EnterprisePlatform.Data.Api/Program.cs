@@ -1,11 +1,13 @@
 using EriccoreTech.EnterprisePlatform.Data.Service;
-using EriccoreTech.EnterprisePlatform.Data.Service.Contracts;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var connectionString = builder.Configuration.GetConnectionString("PlatformData")
+    ?? throw new InvalidOperationException("Connection string 'PlatformData' is not configured.");
+
 builder.Services.AddControllers();
 builder.Services.AddHealthChecks();
-builder.Services.AddScoped<IRecordService, RecordService>();
+builder.Services.AddRecordServices(connectionString);
 
 var app = builder.Build();
 

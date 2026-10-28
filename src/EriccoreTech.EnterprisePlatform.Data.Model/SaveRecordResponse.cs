@@ -5,5 +5,7 @@ namespace EriccoreTech.EnterprisePlatform.Data.Model {
 
         public string? Message { get; set; }
 
+        public Guid RecordId { get; set; }
+
     }
 }
